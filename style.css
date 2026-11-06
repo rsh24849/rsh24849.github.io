@@ -1,0 +1,123 @@
+/*Contrast Ratios:
+#631f54 vs #fff:9.15:1
+Body text #2b2b2b vs Background #f6f3ec:12.37:1*/
+body {
+    margin: 0;
+    background-color: #f6f3ec;
+    color: #2b2b2b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Font style for all headers*/
+h1,
+h2,
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+}
+/* Text-shadow highlights the main heading by creating depth behind the letters*/
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+/*About me and Goals section*/
+h2 {
+    font-size: 1.8rem;
+    color: #631f54;
+    border-bottom: 2px solid #cfe1d6;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+/*Paragraph spacing*/
+p {
+    margin: 0 0 14px;
+}
+/* Introduction with italicized text*/
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+/*Bold color*/
+strong {
+    font-weight: bold;
+    color: #631f54;
+}
+/*Takes away underline when hovering*/
+a:hover {
+    text-decoration: none;
+}
+/*Header banner, drop shadow and tagline style*/
+.site-header {
+    background-color: #631f54;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.site-header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.tagline {
+    margin: 8px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+}
+/*Main page container*/
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+/*Card styling*/
+.card {
+    background-color: #fff;
+    border: 1px solid #cfe1d6;
+    border-left: 6px solid #631f54;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 32px 0;
+    max-width: 420px;
+    box-shadow: 0 4px 12px rgba(43, 33, 43, 0.12);
+}
+
+.card h3 {
+    margin: 0 0 12px;
+    font-size: 1.25rem;
+    color: #631f54;
+}
+/*Email button styling with rounded corners*/
+.button {
+    display: inline-block;
+    background-color: #631f54;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.button:hover {
+    background-color: #631f54;
+}
+/*Unordered list points and indentation*/
+ul {
+    list-style-type: square;
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+/*Page footer is centered*/
+.site-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #4f4f4f;
+    border-top: 1px solid #cfe1d6;
+    padding: 20px;
+}
